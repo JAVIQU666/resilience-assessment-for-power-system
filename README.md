@@ -1,5 +1,35 @@
 ## 🚀 Code Running Instructions
 
+### Step 0: Pre-run Preparation (Before running `env`)
+
+Before running the `env` folder, please prepare the following climate pathway data:
+
+- SSP1-2.6  
+- SSP2-4.5  
+- SSP3-7.0  
+- SSP5-8.5  
+
+For each pathway, the following files/folders are required:
+
+- `.nc` files (climate projection data)
+- `exwindmax` folder (maximum wind speed data)
+- `tempday` folder (daily temperature data)
+- `prday` folder (daily precipitation data)
+
+In addition, the following file must be added to the `data` folder:
+
+- `loadcurvehourly2020.csv`
+
+File format of `loadcurvehourly2020.csv`:
+
+- Column 1: County index  
+- Column 2: Annual total load  
+- Columns 3–8762: Hourly load data (8760 hours)
+
+Please ensure the data format is correct before proceeding.
+
+---
+
 ### Step 1: Prepare Data
 
 Copy all files in the `data` folder into the following directories:
