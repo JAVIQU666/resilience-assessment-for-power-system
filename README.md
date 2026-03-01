@@ -11,7 +11,6 @@ Before running the `env` folder, please prepare the following climate pathway da
 
 For each pathway, the following files/folders are required:
 
-- `.nc` files (climate projection data)
 - `exwindmax` folder (maximum wind speed data)
 - `tempday` folder (daily temperature data)
 - `prday` folder (daily precipitation data)
